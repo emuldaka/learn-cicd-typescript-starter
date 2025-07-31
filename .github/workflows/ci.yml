@@ -20,6 +20,4 @@ jobs:
 
       - name: Install dependencies
         run: npm ci
-      
-      - name: runIT
         run: npm run test
